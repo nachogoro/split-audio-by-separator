@@ -23,6 +23,8 @@ Then, place the acoustic separator, `sample.wav`, in the same directory as these
 ```
 $ split-audio.sh <project_directory>
 ```
+The output `.mp3` files will be found in the project directory.
+
 ### Example
 ```
 $ tree
