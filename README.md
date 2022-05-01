@@ -7,8 +7,8 @@ Some potential use cases could be splitting an audiobook into chapters, or a cou
 ## Motivation
 I acquired several online courses in audio format, each composed of numerous lectures of roughly the same length. All the lectures from each course were bundled in a single file, with a jingle in between lectures. These scripts automated the separation of each course into individual files, one per lesson.
 
-## Important note 
-This project is not really intended for general use (e.g. it presupposes the extension of the input files, though it could be easily adapted for different use cases), and was mostly done as a learning experience. `.m4b` is an audiobook format: it is a collection of audio files, and it internally contains the necessary metadata to extract the individual sections from it without any audio processing. Thus, there are better tools available for the job in that case (see for example [this script](https://gist.github.com/nitrag/a188b8969a539ce0f7a64deb56c00277)).
+## Important note on usefulness
+This project is not really intended for general use as is (e.g. it presupposes the extension of the input files), and was mostly done as a learning experience. The format in which the courses came, `.m4b`, is an audiobook format: it is a collection of audio files, and it internally contains the necessary metadata to extract the individual sections from it without any audio processing. Thus, there are better tools available for the job in that case (see for example [this script](https://gist.github.com/nitrag/a188b8969a539ce0f7a64deb56c00277)).
 
 ## Dependencies
 This project is intended to be run on a Linux environment, with the following tools installed:
