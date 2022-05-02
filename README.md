@@ -21,7 +21,7 @@ To run the script, simply create a directory for the project to be split. Place 
 
 Then, place the acoustic separator, `sample.wav`, in the same directory as these scripts, and run:
 ```
-$ split-audio.sh <project_directory>
+$ ./split-audio.sh <project_directory>
 ```
 The output `.mp3` files will be found in the project directory.
 
@@ -42,4 +42,4 @@ $ ./split-audio.sh philosophy-course
 ```
 
 ## Acknowledgements
-The code for finding the jingle inside the directory draws heavily from [this tutorial](https://dev.to/hiisi13/find-an-audio-within-another-audio-in-10-lines-of-python-1866) by Dmitry Kozhedubov.
+The code for finding the jingle inside the concatenated `.wav` audio file draws heavily from [this tutorial](https://dev.to/hiisi13/find-an-audio-within-another-audio-in-10-lines-of-python-1866) by Dmitry Kozhedubov.
